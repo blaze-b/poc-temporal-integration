@@ -1,4 +1,4 @@
-package com.mclebtec.config;
+package com.mclebtec.activity;
 
 import io.temporal.activity.ActivityInterface;
 import io.temporal.activity.ActivityMethod;

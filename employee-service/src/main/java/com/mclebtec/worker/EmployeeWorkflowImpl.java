@@ -1,7 +1,7 @@
 package com.mclebtec.worker;
 
-import com.mclebtec.config.EmployeeAuditActivity;
-import com.mclebtec.config.EmployeeDepartmentActivity;
+import com.mclebtec.activity.EmployeeAuditActivity;
+import com.mclebtec.activity.EmployeeDepartmentActivity;
 import io.temporal.activity.ActivityOptions;
 import io.temporal.common.RetryOptions;
 import io.temporal.workflow.Workflow;
