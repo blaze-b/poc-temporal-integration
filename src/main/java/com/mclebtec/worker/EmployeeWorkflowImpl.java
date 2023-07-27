@@ -33,7 +33,7 @@ public class EmployeeWorkflowImpl implements EmployeeWorkFlow {
   public void refreshEmployeeDetails(String employeeId) {
     log.info("Initiating employee refresh details, employee Id::{}", employeeId);
     if (employeeDepartmentActivity.checkEmployeeIsActiveInDepartment(employeeId)) {
-      employeeDepartmentActivity.addEmployeeToTheDepartment(employeeId);
+      employeeDepartmentActivity.addEmployeeToDepartment(employeeId);
       Map<String, String> employeeDepartmentDetails =
           employeeDepartmentActivity.getEmployeeDepartmentDetails(employeeId);
       log.info("employee_department_details::{}", employeeDepartmentDetails.get(employeeId));

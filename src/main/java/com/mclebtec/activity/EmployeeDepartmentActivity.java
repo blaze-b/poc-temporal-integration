@@ -13,7 +13,7 @@ public interface EmployeeDepartmentActivity {
   Boolean checkEmployeeIsActiveInDepartment(String employeeId);
 
   @ActivityMethod
-  void addEmployeeToTheDepartment(String employeeId);
+  void addEmployeeToDepartment(String employeeId);
 
   @ActivityMethod
   Map<String, String> getEmployeeDepartmentDetails(String employeeId);

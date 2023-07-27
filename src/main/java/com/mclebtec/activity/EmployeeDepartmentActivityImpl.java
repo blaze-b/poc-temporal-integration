@@ -24,7 +24,7 @@ public class EmployeeDepartmentActivityImpl implements EmployeeDepartmentActivit
   }
 
   @Override
-  public void addEmployeeToTheDepartment(String employeeId) {
+  public void addEmployeeToDepartment(String employeeId) {
     log.info("Starting::addEmployeeToTheDepartment::employeeId::{}", employeeId);
     try {
       Thread.sleep(Duration.ofSeconds(5).toMillis());
